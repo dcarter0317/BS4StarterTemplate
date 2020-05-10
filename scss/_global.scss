@@ -1,0 +1,33 @@
+// IMPORT WEBFONTS
+/*
+ Example:
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+html {
+  font-size: 10px;
+  box-sizing: inherit;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+section {   // mobile first approach
+  padding: 5rem 0;
+}
+
